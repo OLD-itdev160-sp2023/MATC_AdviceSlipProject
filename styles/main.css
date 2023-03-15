@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
 body {
     background-color: black;
     color: whitesmoke;
@@ -7,8 +9,8 @@ body {
 .button {
     margin: 0 auto;
     display: block;
-    background-color: #4CAF50;
-    border: none;
+    background-color: darkblue;
+    border: 1px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -21,4 +23,41 @@ body {
     color: white;
     font-size:  x-large;
     text-align: center;
+}
+
+p.disclaimer {
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+
+table, tr{
+    position: relative;
+    border: 1px solid;
+    border-color: white;
+    width: 1000px;
+    align-content: center;
+    text-align: center;
+    font-family: 'IBM Plex Mono', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+img.logo {
+    height: 5%;
+    width: 5%;
+    padding-left: -20px;
+}
+
+div.credits {
+    position: fixed;
+    bottom: 0;
+    right: 1;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+p.attribution {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
 }
